@@ -59,6 +59,7 @@
           id: this.idForTodo,
           text: this.newTodo,
           completed: false,
+          editing: false
         });
 
         this.newTodo = '';
