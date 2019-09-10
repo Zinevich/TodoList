@@ -1,17 +1,18 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Твой список дел на сегодня"/>
+    <ToDoList msg="Твой список дел на сегодня"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import ToDoList from '@/components/ToDoList.vue'
+import ToDoList from '../components/ToDoList'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    ToDoList
   }
 }
 </script>

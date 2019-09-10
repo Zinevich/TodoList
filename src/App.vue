@@ -16,7 +16,11 @@
   text-align: center;
   color: #2c3e50;
   font-size: 20px;
+  min-width: 230px;
   max-width: 600px;
   margin: 20px auto 0;
+  display: block;
+  background: white;
+  border-radius: 15px;
 }
 </style>
